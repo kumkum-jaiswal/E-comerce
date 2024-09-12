@@ -14,7 +14,7 @@ import PremiumWatches from "./Pages/PremiumWatches";
 import MenProduct from "./Pages/MenProduct";
 import WomenProduct from "./Pages/WomenProduct";
 import ProductSearch from "./Pages/ProductSearch";
-import CheckOut from "./Pages/CheckOut";
+import CheckOut from "./Pages/Checkout";
 import PaymentDone from "./Pages/PaymentDone";
 
 
@@ -40,8 +40,8 @@ const App = () => {
         <Route path="/preshoes" element={<PremiumWatches/>} />
         <Route path="/womensshoes" element={<WomenProduct/>} />
         <Route path="/searchproduct/:txtdata" element={<ProductSearch/>} />
-        <Route path="checkout" element={<CheckOut/>}/>
-        <Route path="paydone" element={<PaymentDone/>} />
+        <Route path="/checkout" element={<Checkout/>}/>
+        <Route path="/paydone" element={<PaymentDone/>} />
 
 
         </Route>
